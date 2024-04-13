@@ -2,11 +2,13 @@ nav{
     display: flex;
     justify-content: space-between;
     text-align: center;
+    border-bottom: 2px solid whitesmoke;
 }
-.v li{
+li{
     display: flex;
     padding: 16px;
     color: #1e3869;
+    cursor: pointer;
 }
 ul{
 display: flex;
@@ -17,4 +19,8 @@ button{
     border: none;
     border-radius: 10px;
     padding:16px;
+}
+li:hover{
+    border-bottom:2px solid  #1e3869;
+
 }
